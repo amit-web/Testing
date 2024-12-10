@@ -1,0 +1,26 @@
+/* Navbar styles */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ffcc00; /* Highlight color */
+  }
+  
